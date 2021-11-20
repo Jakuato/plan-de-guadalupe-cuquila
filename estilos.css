@@ -4,12 +4,18 @@
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
+    color: blanchedalmond;
 }
 
 nav{
-    background: rgb(9, 194, 169);
+    background: rgba(73, 171, 201, 0.486);
     height: 80px;
     width: 100%;
+}
+
+header{
+    background-color: rgb(66, 68, 63);
+    color: #fff;
 }
 
 .enlace{
@@ -63,6 +69,7 @@ section{
     background-size: cover;
     background-position: center center;
     height: calc(100vh - 80px);
+    padding: 15px;
 }
 
 @media (max-width: 952px){
@@ -103,5 +110,8 @@ section{
     }
     #check:checked ~ ul{
         left: 0;
+    }
+    section{
+        
     }
 }
